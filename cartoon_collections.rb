@@ -16,9 +16,7 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array = cheese_types
-  until array.include?(cheese_types) == cheese_types
+  array.include?(cheese_types) == cheese_types
     puts array.first
-    counter +=1
   end
 end
