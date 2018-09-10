@@ -19,4 +19,5 @@ def find_the_cheese(array)
   array.find do |snack|
   array.include?(cheese_types) == cheese_types
     puts array.first
+  end
 end
